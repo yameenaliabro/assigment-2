@@ -1,0 +1,148 @@
+body{
+    background-color: rgba(255, 192, 203, 0.849);
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+.main-container img{
+float: right;
+}
+#bar{
+    width: 50px;
+    height: 40px;
+    background-color: blueviolet;
+    padding: 5px;
+    margin: 5px;
+}
+#bar:hover{
+    background-color: blue;
+}
+#user{
+    color: blue;
+}
+.main-container{
+    width:1000px;
+    background-color: #fff;
+position: absolute;
+   top: 10%;
+   left: 10%;
+    height: 450px;
+}
+.main-container svg{
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+
+}
+.main-container img{
+    height: 200px;
+}
+.main-container svg:hover{
+    background-color: blue;
+}
+.set-para{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.set-icon-2{
+    position: absolute;
+    right: 10px;
+    bottom: 2px;
+    color: blueviolet;
+    font-size: 30px;
+    padding-left: 500px;
+}
+.icon{
+    position: absolute;
+    left: 2%;
+    top: 10px;
+}
+.para{
+    display: flex;
+    position: absolute;
+    left: 47%;
+    margin-top: 50px;
+}
+.para-2{
+position: absolute;
+right: 5px;
+margin-top: 50px;
+}
+.imgset img{
+    position: absolute;
+    left: 10%;
+    top: 0px;
+    height: 480px;
+    box-shadow: 0px 10px 20px black;
+}
+.imgset h2{
+position: relative;
+top: 0px;
+left: 20%;
+color: #fff;
+font-size: 35px;
+}
+#television{
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    width: 50px;
+    font-size: 30px;
+    color: blueviolet;
+}
+.set-icon h3{
+    position: absolute;
+    left: 48%;
+    top: 60%;
+}
+#rocket{
+    position: absolute;
+    right: 20%;
+    top: 55%;
+    font-size: 30px;
+    color: blueviolet;
+}
+.set-icon p{
+    position: absolute;
+    top: 50%;
+
+}
+.set-icon h4{
+    position: absolute;
+    top: 60%;
+    right: 10%;
+}
+.imgset a{
+    position: relative;
+    left: 20%;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    color: #fff;
+
+}
+.imgset p{
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    top: 10px;
+    height: 100px;
+}
+.imgset h1{
+position: absolute;
+top: 35%;
+left: 50%;
+}
+#display{
+    position: absolute;
+    left: 30%;
+}
+hr{
+    width: 490px;
+    position: relative;
+    left: 230px;
+    top: -12px;
+}
